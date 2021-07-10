@@ -1,0 +1,48 @@
+h1 {
+    font-family: NFL San Diego Chargers;
+}
+
+.text1 {
+    font-family: Poppins;
+}
+
+@media(max-width: 720px) {
+    .images {
+        display: none;
+    }
+}
+
+.education {
+    width: 400px;
+    margin: right 10px;
+    ;
+    display: flexbox;
+    object-fit: contain;
+}
+
+#education {
+    display: flex;
+}
+
+.img {
+    padding: 20px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(232, 232, 232, 0.5);
+    background-color: #FFFFFF;
+}
+
+footer p {
+    margin: 15px 0px;
+    color: #5f5f5f;
+    font-size: 0.9rem;
+}
